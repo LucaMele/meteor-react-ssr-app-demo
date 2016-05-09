@@ -7,7 +7,7 @@ Main Techonologies:
  - React (https://facebook.github.io/react/)
  - Foundation (http://foundation.zurb.com/)
  
-#First setup
+# First setup
 
  - Install Meteor
  - Download the repo
@@ -15,7 +15,7 @@ Main Techonologies:
  - Run `meteor`
  - Open your browser under `localhost:3000`
 
- #What is all this?#
+# What is all this?
  
  An Isomorphic application is an app where code can run either on server or client, as needed. In this repo, I show you how to create an application with React and with Server Side Rendering (Mandatory for good SEO).
  
