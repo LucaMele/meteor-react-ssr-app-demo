@@ -14,10 +14,10 @@ Main Techonologies:
  - In the root folder, run `meteor npm install`
  - Run `meteor`
  - Open your browser under `localhost:3000`
- 
+
  #What is all this?#
  
- An Isomorphic application is an app where code can run on server or client, as needed. In this repo, I show you how to create an application with React and with Server Side Rendering (Mandatory for good SEO).
+ An Isomorphic application is an app where code can run either on server or client, as needed. In this repo, I show you how to create an application with React and with Server Side Rendering (Mandatory for good SEO).
  
  With this approach, developer can deliver very quickly web applications that are responsive, well indexed, super fast in performance and is all written in Javascript (ES6) ( Frontend is the new Backend ;) ).
   
