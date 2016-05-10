@@ -1,0 +1,28 @@
+.chat__single{
+  h3{
+    color: darkblue;
+    margin: 3em 0 3em 0;
+    -webkit-animation: chat__single 5s infinite; /* Chrome, Safari, Opera */
+    animation: chat__single 5s infinite;
+  }
+  p{
+    color: grey;
+    font-style: italic;
+  }
+}
+
+@-webkit-keyframes chat__single {
+  0%   {color: grey; transform: rotate(0deg);}
+  25%  {color: green; transform: rotate(10deg);}
+  50%  {color: red; transform: rotate(0deg);}
+  75%  {color: blueviolet; transform: rotate(-10deg);}
+  100% {color: grey; transform: rotate(0deg);}
+}
+
+@keyframes chat__single {
+  0%   {color: grey; transform: rotate(0deg);}
+  25%  {color: green; transform: rotate(10deg);}
+  50%  {color: red; transform: rotate(0deg);}
+  75%  {color: blueviolet; transform: rotate(-10deg);}
+  100% {color: grey; transform: rotate(0deg);}
+}
