@@ -23,3 +23,5 @@ Main Techonologies:
   
  Meteor allows you as well to quickly connect the app to cordova and have so your mobile native app! Awesome!
  
+ Check out this blog article for more details: http://bit.ly/282CxBh 
+ 
