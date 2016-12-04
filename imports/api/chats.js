@@ -4,6 +4,8 @@ import { check } from 'meteor/check';
 
 export const Chats = new Mongo.Collection('chats');
 
+
+
 Meteor.methods({
     'chat.insert'(text) {
         check(text, String);
