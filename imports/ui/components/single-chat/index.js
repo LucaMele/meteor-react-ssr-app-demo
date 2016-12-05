@@ -13,6 +13,11 @@ function composer(props, onData) {
         DocHead.addMeta({
             name: 'description', content: chat.title.substr(0, 20)
         });
+        let metaInfo = {
+            name: "http-equiv", content: "Content-Security-Policy",
+            name: "content", content: "default-src 'self' 'unsafe-inline' 'unsafe-eval' https://yourdomain.com wss://yourdomain.com https://enginex.kadira.io"
+        };
+        DocHead.addMeta(metaInfo);
     }
 };
 
