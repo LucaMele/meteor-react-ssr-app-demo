@@ -19,6 +19,6 @@ function composer(props, onData) {
         };
         DocHead.addMeta(metaInfo);
     }
-};
+}
 
 export default composeWithTracker(composer)(SingleChat);
